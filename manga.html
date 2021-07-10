@@ -4,7 +4,7 @@
     <title>Blog Manga Oneshot</title>
     <style>
         .manga{
-            height: 432px;
+            height: 300px;
             padding: 1px;
         }
         ul { /* định nghĩa một list / tức danh sách */
@@ -12,7 +12,7 @@
         margin: 0; /* thụt lề bằng 0 */
         padding: 0; /* vùng đệm để đẩy thành phần chứa bên trong thụt vô bằng 0 */
         overflow: hidden; /* nếu chữ/ hình bị tràn ra ngoài, cắt bỏ */
-        background-color: lightblue; /* màu chữ của các thứ chứa trong danh sách là màu đen hơi xám */
+        background-color: rgb(182, 18, 40); /* màu chữ của các thứ chứa trong danh sách là màu đen hơi xám */
         height: 60px;
         }
 
@@ -28,44 +28,95 @@
             font-size: 24px;
             text-decoration: none; /* không trang trí hoa hòe hoa sói, tức rà chuột, kích chuột,... chữ vẫn trắng mà không ra màu khác hay chớp nháy, gạch chân gì cả */
         }
+        .manga-name{
+            font-size: 19px;
+        }
+        .boxManga{
+            padding-left: 12px;
+            padding-right: 12px;
+            background-color: white;
+            border: 3px solid black;
+            border-collapse: collapse;
+            
+        }
+        .boxManga a{
+            text-decoration: none;
+            color: black;
+        }
     </style>
 </html>
-<body style="margin: 0; background-color: #f2f6ff;">
+<body style="margin: 0; background-color: black;">
     <div id="wrapper">
 		<div>
 			<ul style="list-style: none; ">
                 <li><a href=""><img src="/rover.png" alt="Rover Logo" height="40px"></a></li>
 				<li><a href="Blogmanga.html">Picture</a></li>
-				<li><a href="">Manga</a></li>
-				<li><a href="">Anime</a></li>
+				<li><a href="manga.html">Manga</a></li>
 				<li><a href="">Request</a></li>
 			</ul>
 		</div>
     <main style="text-align: center; margin-top: 0%; ">
             <div >
-                <h1 style="padding-top: 32px;">Manga Oneshot</h1>
-                <table style="margin-left: auto; margin-right: auto; background-color: #f2f6ff; padding-bottom: 40px;">
+                <h1 style="padding-top: 32px; color: white;">Manga Oneshot</h1>
+                <table style="margin-left: auto; margin-right: auto; background-color:black; padding-bottom: 40px;">
                     <tr>
-                        <td>
-                            <img class="manga" src="https://3.bp.blogspot.com/-L6X1FgdMCOw/WBH8SXCOA6I/AAAAAAAABio/MQWXzGh8kcw3ftlU6RNp9olfR6eOOK3oQCK4B/s1600/Untitled-1.jpg" alt="Manga Tokidoki" >
-                            <p>Tokidoki</p>
+                        <td class="boxManga"> 
+                            <a href="Tokidoki.html">
+                                <img class="manga" src="https://3.bp.blogspot.com/-L6X1FgdMCOw/WBH8SXCOA6I/AAAAAAAABio/MQWXzGh8kcw3ftlU6RNp9olfR6eOOK3oQCK4B/s1600/Untitled-1.jpg" alt="Manga">
+                                <p class="manga-name">Tokidoki</p>
+                            </a>
                         </td>
-                        <td>
-                            <img class="manga" src="https://img.blogtruyen.com/thumb/400/manga/0/621/cover%20p.jpg" alt="Manga " >
-                            <p>At least, like that snow</p>
+                        <td class="boxManga">
+                            <a href="halfhalf.html">
+                                <img class="manga" src="https://images-na.ssl-images-amazon.com/images/I/81KXwjSSntL.jpg" alt="Manga " >
+                                <p class="manga-name">Half & Half</p>
+                            </a>
                         </td>
-                        <td>
-                            <img class="manga" src="https://live.staticflickr.com/65535/49067236042_f6081583df_o.jpg" alt="Manga " >
-                            <p>Han tomei no kimi to</p>
+                        <td class="boxManga">
+                            <a href="han.html">
+                                <img class="manga" src="https://live.staticflickr.com/65535/49067236042_f6081583df_o.jpg" alt="Manga" >
+                                <p class="manga-name">Han tomei no kimi to</p>
+                            </a>
                         </td>
-
+                        <td class="boxManga">
+                            <a href="Inshin.html">
+                                <img class="manga" src="https://multianime.com.mx/wp-content/uploads/2020/08/inshin-no-yuki-manga.jpg" alt="Manga" >
+                                <p class="manga-name">Inshin no Yuki</p>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="boxManga">
+                            <a href="onceAgain.html">
+                                <img class="manga" src="http://zjcdn.mangahere.org/store/manga/31907/001.0/compressed/l20190328_92910_197.jpg" alt="Manga " >
+                                <p class="manga-name">Once Again, I'd like to love you</p>
+                            </a>
+                        </td>
+                        <td class="boxManga">
+                            <a href="okuhjou copy.html">
+                                <img class="manga" src="http://i.truyentranh8.net/2016/0211/13333-okujou-de-kimi-to-yume-miru.jpg" alt="Manga " >
+                                <p class="manga-name">Okujou De Kimi To Yume Miru</p>
+                            </a>
+                        </td>
+                        <td class="boxManga">
+                            <a href="butterfly.html">
+                                <img class="manga" src="https://i.pinimg.com/originals/46/c4/af/46c4af078279a82e63c640f3b8f27509.jpg" alt="Manga " >
+                                <p class="manga-name">Butterfly neighbour</p>
+                            </a>
+                        </td>
+                        <td class="boxManga">
+                            <a href="snow.html">
+                                <img class="manga" src="https://img.blogtruyen.com/thumb/400/manga/0/621/cover%20p.jpg" alt="Manga" >
+                                <p class="manga-name">At least, like that snow</p>
+                            </a>
+                        </td>
                     </tr>
                 </table>
             </div>
         </main>
         <footer>
-            <div style="background-color: lightblue; padding: 10px;">
-                <p style="font-size: 20px;">Design and Dev: Tung Nguyen</p>
+            <div style="background-color: grey; padding: 10px;">
+                <p style="font-size: 20px; color: white;">Design and Dev: Tung Nguyen</p>
             </div>
         </footer>
 </body>
