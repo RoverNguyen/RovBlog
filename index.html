@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="UTF-8">
-    <title>ROV Blog</title>
-    <style>
-        #background{
-            width: 1520px;
-            max-width: 100%;
-        }
-        ul { /* định nghĩa một list / tức danh sách */
-        list-style-type: none; /* kiểu của các dòng trong danh sách là không có gì đầu dòng */
-        margin: 0; /* thụt lề bằng 0 */
-        padding: 0; /* vùng đệm để đẩy thành phần chứa bên trong thụt vô bằng 0 */
-        overflow: hidden; /* nếu chữ/ hình bị tràn ra ngoài, cắt bỏ */
-        background-color: rgb(182, 18, 40); /* màu chữ của các thứ chứa trong danh sách là màu đen hơi xám */
-        height: 60px;
-        }
-
-        li { /* định nghĩ cho các dòng trong danh sách */
-            float: left; /* cho các dòng trôi nổi về góc bên trái như những cục shit trôi sông tấp vào bờ trái */
-        }
-
-        li a { /* định nghĩa thẻ a nằm bên trong một thẻ li */
-            display: block; /* bình thường thẻ a là thẻ inline, không phải block, giờ cho nó thành block */
-            color: black; /* màu chữ sẽ là màu trắng */
-            text-align: center; /* canh lề giữa cho chữ, tức thẻ a sẽ là khối chữ nhật, chữ nằm giữa, canh đều hai bên */
-            padding: 16px; /* vùng đệm thụt vào 16px rồi mới đến nội dung bên trong a */
-            font-size: 24px;
-            text-decoration: none; /* không trang trí hoa hòe hoa sói, tức rà chuột, kích chuột,... chữ vẫn trắng mà không ra màu khác hay chớp nháy, gạch chân gì cả */
-        }
-    </style>
-</html>
-<body style="margin: 0; background-color: black;">
-    <div id="wrapper">
-		<div>
-			<ul style="list-style: none; ">
-                <li><a href="index.html"><img src="rover.png" alt="Rover Logo" height="40px"></a></li>
-				<li><a href="picture.html">Picture</a></li>
-				<li><a href="/manga.html">Manga</a></li>
-				<li><a href="formRequest.html">Request</a></li>
-			</ul>
-		</div>
-    <main style="text-align: center; margin-top: 0%; margin-bottom: 0%; ">
+    <head>
+        <meta charset="UTF-8">
+        <title>ROV Blog</title>
+        <style>
+            #background{
+                width: 1520px;
+                max-width: 100%;
+            }
+            ul { /* định nghĩa một list / tức danh sách */
+                list-style-type: none; /* kiểu của các dòng trong danh sách là không có gì đầu dòng */
+                margin: 0; /* thụt lề bằng 0 */
+                padding: 0; /* vùng đệm để đẩy thành phần chứa bên trong thụt vô bằng 0 */
+                overflow: hidden; /* nếu chữ/ hình bị tràn ra ngoài, cắt bỏ */
+                background-color: rgb(182, 18, 40); /* màu chữ của các thứ chứa trong danh sách là màu đen hơi xám */
+                height: 60px;
+            }
+    
+            li { /* định nghĩ cho các dòng trong danh sách */
+                float: left; /* cho các dòng trôi nổi về góc bên trái như những cục shit trôi sông tấp vào bờ trái */
+            }
+    
+            li a { /* định nghĩa thẻ a nằm bên trong một thẻ li */
+                display: block; /* bình thường thẻ a là thẻ inline, không phải block, giờ cho nó thành block */
+                color: black; /* màu chữ sẽ là màu trắng */
+                text-align: center; /* canh lề giữa cho chữ, tức thẻ a sẽ là khối chữ nhật, chữ nằm giữa, canh đều hai bên */
+                padding: 16px; /* vùng đệm thụt vào 16px rồi mới đến nội dung bên trong a */
+                font-size: 24px;
+                text-decoration: none; /* không trang trí hoa hòe hoa sói, tức rà chuột, kích chuột,... chữ vẫn trắng mà không ra màu khác hay chớp nháy, gạch chân gì cả */
+            }
+        </style>
+    </head>
+    <body style="margin: 0; background-color: black;">
+        <div id="wrapper">
             <div>
-                <img id="background" src="animeGirl.jpg" alt="ROV Blog">
+                <ul style="list-style: none; ">
+                    <li><a href="index.html"><img src="rover.png" alt="Rover Logo" height="40px"></a></li>
+                    <li><a href="picture.html">Picture</a></li>
+                    <li><a href="/manga.html">Manga</a></li>
+                    <li><a href="formRequest.html">Request</a></li>
+                </ul>
             </div>
-    </main>
-    <footer style="bottom:0; left:0;">
-        <div style="background-color: grey; padding: 11px;">
-            <p style="font-size: 20px; color: white;">Design and Dev: Tung Nguyen</p>
-        </div>
-    </footer>
-</body>
+        <main style="text-align: center; margin-top: 0%; margin-bottom: 0%; ">
+                <div>
+                    <img id="background" src="animeGirl.jpg" alt="ROV Blog">
+                </div>
+        </main>
+        <footer style="bottom:0; left:0;">
+            <div style="background-color: grey; padding: 11px;">
+                <p style="font-size: 20px; color: white;">Design and Dev: Tung Nguyen</p>
+            </div>
+        </footer>
+    </body>
+</html>

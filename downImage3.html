@@ -1,65 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="UTF-8">
-    <title>ROV Blog</title>
-    <style>
-        .wallpaper{
-            width: 960px;
-            padding: 10px;
-        }
-
-        #root{
-            font-size: 20px;
-            padding: 10px;
-            background-color: rgb(38, 49, 202);
-            text-decoration: none;
-            color: white;
-            border-radius: 6px;
-        }
-        ul { /* định nghĩa một list / tức danh sách */
-        list-style-type: none; /* kiểu của các dòng trong danh sách là không có gì đầu dòng */
-        margin: 0; /* thụt lề bằng 0 */
-        padding: 0; /* vùng đệm để đẩy thành phần chứa bên trong thụt vô bằng 0 */
-        overflow: hidden; /* nếu chữ/ hình bị tràn ra ngoài, cắt bỏ */
-        background-color: rgb(182, 18, 40); /* màu chữ của các thứ chứa trong danh sách là màu đen hơi xám */
-        height: 60px;
-        }
-
-        li { /* định nghĩ cho các dòng trong danh sách */
-            float: left; /* cho các dòng trôi nổi về góc bên trái như những cục shit trôi sông tấp vào bờ trái */
-        }
-
-        li a { /* định nghĩa thẻ a nằm bên trong một thẻ li */
-            display: block; /* bình thường thẻ a là thẻ inline, không phải block, giờ cho nó thành block */
-            color: black; /* màu chữ sẽ là màu trắng */
-            text-align: center; /* canh lề giữa cho chữ, tức thẻ a sẽ là khối chữ nhật, chữ nằm giữa, canh đều hai bên */
-            padding: 16px; /* vùng đệm thụt vào 16px rồi mới đến nội dung bên trong a */
-            font-size: 24px;
-            text-decoration: none; /* không trang trí hoa hòe hoa sói, tức rà chuột, kích chuột,... chữ vẫn trắng mà không ra màu khác hay chớp nháy, gạch chân gì cả */
-        }
-    </style>
+    <head>
+        <meta charset="UTF-8">
+        <title>ROV Blog</title>
+        <style>
+            .wallpaper{
+                width: 960px;
+                padding: 10px;
+            }
+    
+            #root{
+                font-size: 20px;
+                padding: 10px;
+                background-color: rgb(38, 49, 202);
+                text-decoration: none;
+                color: white;
+                border-radius: 6px;
+            }
+            ul { /* định nghĩa một list / tức danh sách */
+                list-style-type: none; /* kiểu của các dòng trong danh sách là không có gì đầu dòng */
+                margin: 0; /* thụt lề bằng 0 */
+                padding: 0; /* vùng đệm để đẩy thành phần chứa bên trong thụt vô bằng 0 */
+                overflow: hidden; /* nếu chữ/ hình bị tràn ra ngoài, cắt bỏ */
+                background-color: rgb(182, 18, 40); /* màu chữ của các thứ chứa trong danh sách là màu đen hơi xám */
+                height: 60px;
+            }
+    
+            li { /* định nghĩ cho các dòng trong danh sách */
+                float: left; /* cho các dòng trôi nổi về góc bên trái như những cục shit trôi sông tấp vào bờ trái */
+            }
+    
+            li a { /* định nghĩa thẻ a nằm bên trong một thẻ li */
+                display: block; /* bình thường thẻ a là thẻ inline, không phải block, giờ cho nó thành block */
+                color: black; /* màu chữ sẽ là màu trắng */
+                text-align: center; /* canh lề giữa cho chữ, tức thẻ a sẽ là khối chữ nhật, chữ nằm giữa, canh đều hai bên */
+                padding: 16px; /* vùng đệm thụt vào 16px rồi mới đến nội dung bên trong a */
+                font-size: 24px;
+                text-decoration: none; /* không trang trí hoa hòe hoa sói, tức rà chuột, kích chuột,... chữ vẫn trắng mà không ra màu khác hay chớp nháy, gạch chân gì cả */
+            }
+        </style>
+    </head>
+    <body style="margin: 0; background-color: black;">
+        <div id="wrapper">
+            <div>
+                <ul style="list-style: none; ">
+                    <li><a href="index.html"><img src="rover.png" alt="Rover Logo" height="40px"></a></li>
+                    <li><a href="picture.html">Picture</a></li>
+                    <li><a href="/manga.html">Manga</a></li>
+                    <li><a href="formRequest.html">Request</a></li>
+                </ul>
+            </div>
+        <main style="text-align: center; margin-top: 0%; ">
+            <div>
+                <img class="wallpaper" src="https://a-static.besthdwallpaper.com/anime-girl-hoang-hon-va-bau-troi-hinh-nen-1024x576-53118_44.jpg" alt="Wallpaper Anime" >
+            </div>
+            <div>
+                <a id="root" href="https://a-static.besthdwallpaper.com/anime-girl-hoang-hon-va-bau-troi-hinh-nen-1024x576-53118_44.jpg">Root Link</a>
+            </div>
+        </main>
+        <footer>
+            <div style="background-color: grey; padding: 10px; margin-top: 18px;">
+                <p style="font-size: 20px; color: white;">Design and Dev: Tung Nguyen</p>
+            </div>
+        </footer>
+    </body>
 </html>
-<body style="margin: 0; background-color: black;">
-    <div id="wrapper">
-		<div>
-			<ul style="list-style: none; ">
-                <li><a href="index.html"><img src="rover.png" alt="Rover Logo" height="40px"></a></li>
-				<li><a href="picture.html">Picture</a></li>
-				<li><a href="/manga.html">Manga</a></li>
-				<li><a href="formRequest.html">Request</a></li>
-			</ul>
-		</div>
-    <main style="text-align: center; margin-top: 0%; ">
-        <div>
-            <img class="wallpaper" src="https://a-static.besthdwallpaper.com/anime-girl-hoang-hon-va-bau-troi-hinh-nen-1024x576-53118_44.jpg" alt="Wallpaper Anime" >
-        </div>
-        <div>
-            <a id="root" href="https://a-static.besthdwallpaper.com/anime-girl-hoang-hon-va-bau-troi-hinh-nen-1024x576-53118_44.jpg">Root Link</a>
-        </div>
-    </main>
-    <footer>
-        <div style="background-color: grey; padding: 10px; margin-top: 18px;">
-            <p style="font-size: 20px; color: white;">Design and Dev: Tung Nguyen</p>
-        </div>
-    </footer>
-</body>
